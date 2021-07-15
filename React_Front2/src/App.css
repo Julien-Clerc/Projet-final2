@@ -1,0 +1,124 @@
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+
+/*Radio page*/
+
+.radio-button {
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: helvetica;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+.create-radio-button.radio-button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.create-radio-button.radio-button:hover {
+  background-color: rgb(50, 187, 119);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(50, 187, 119);
+  transition-duration: 0.5s;
+}
+
+.delete-radio.radio-button:hover {
+  background-color: rgb(221, 74, 74);
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.radio-list {
+  list-style-type: none;
+}
+
+.masonry-tile {
+  padding: 1em;
+}
+
+.create-radio-label {
+  text-align: center;
+}
+
+.create-radio-label {
+  text-align: center;
+  font-weight: bold;
+}
+
+.create-radio-form {
+  text-align: center;
+}
+
+.create-radio-form {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #effffe;
+}
+
+.button.play-pause {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #000;
+  border: none;
+}
+.button.play-pause:hover {
+  color: white;
+  background-color: rgb(50, 187, 119);
+}
+
+.CTA-text {
+  font-size: 30px;
+}
+/*END Radio page*/
+
+input[type="text"]
+{
+    background: transparent;
+    border-color: grey;
+    text-shadow: grey;
+    color: grey;
+}
+
+button {
+  background: transparent;
+  border-color: black;
+  border: 1px;
+  text-shadow: grey;
+  color: grey;
+}
